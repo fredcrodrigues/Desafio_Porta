@@ -1,0 +1,31 @@
+.entrada{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+
+
+.texto{
+    color: #555;
+    font-size: 1.5rem;
+
+}
+.value{
+    color: #555;
+    font-size: 50px;
+}
+
+.botoes{
+    display: flex;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #555;
+    border: none;
+}
