@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 
 
-export default function jogo(){
+export default function Jogo(){
 
     const [validaPorta, setPorta] = useState(false)
     const [portas, setPortas] = useState([])
@@ -25,7 +25,7 @@ export default function jogo(){
 
      setPorta(qtdPortaValida && temPresenteValida)
       
-    }, [validaPorta]);
+    }, [portas, router.query.portas, router.query.temPresente]);
    
     useEffect(() => {
 
@@ -50,12 +50,11 @@ export default function jogo(){
           </div>
           <div className={styles.botoes}>
 
-            <Link href="/">
+            <Link href="/" passHref>
                 <button>Reiniciar Game</button>
             </Link>
             
           </div>
-        
       </div>
     )
 }
