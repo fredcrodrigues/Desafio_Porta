@@ -22,7 +22,9 @@ as principais tecnologias consistem no uso do React com Next Js.
 A tela inicial deste projeto consistem em um botao de iniciar, e campos onde são inseriddas a quantidade de portas e porta na qual está o presente.
 
 
-![alt text](https://https://github.com/fredcrodrigues/Desafio_Porta/telaInical.png)
+![alt text](https://github.com/fredcrodrigues/Desafio_Porta/blob/main/telaInicial.png)
 
-![alt text](https://https://github.com/fredcrodrigues/Desafio_Porta/portaPremiada.png)
+![alt text](https://github.com/fredcrodrigues/Desafio_Porta/blob/main/portaPremiada.png)
+
+![alt text](https://github.com/fredcrodrigues/Desafio_Porta/blob/main/portas.png)
 
