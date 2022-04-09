@@ -25,7 +25,7 @@ export default function Jogo(){
 
      setPorta(qtdPortaValida && temPresenteValida)
       
-    }, [portas, router.query.portas, router.query.temPresente]);
+    }, [portas, router.query.porta, router.query.temPresente]);
    
     useEffect(() => {
 
