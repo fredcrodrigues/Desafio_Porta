@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import {useRouter} from 'next/router'
 import {criarPortas, atualizarPortas} from "../../../_assents/js/portas"
-import Porta from '../../../components/Porta'
+import Porta from '../../../../src/components/Porta'
 import styles from "../../../_assents/css/Jogo.module.css"
 import Link from 'next/link'
 
