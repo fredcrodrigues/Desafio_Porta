@@ -21,7 +21,7 @@ export default function Jogo(){
       const temPresente = +router.query.temPresente
 
      const qtdPortaValida =  porta >= 3 && porta <= 100
-     const temPresenteValida = temPresente >= 3 && temPresente <= porta
+     const temPresenteValida = temPresente > 0 && temPresente <= porta
 
      setPorta(qtdPortaValida && temPresenteValida)
       
